@@ -1,0 +1,54 @@
+---
+title: "Tarea 1"
+author: "Luis Diego Montero Vargas"
+date: "2025-10-05"
+output: 
+  html_document:
+    theme: darkly
+    toc: true
+    toc_float: true
+---
+
+# Introducción
+
+El presente cuestionario tiene como propósito **identificar el nivel de estrés académico en estudiantes universitarios**, explorando sus principales causas, así como las estrategias utilizadas para afrontarlo.
+
+---
+
+# Objetivo general
+
+Analizar los niveles de estrés académico en estudiantes universitarios y su relación con los factores que lo generan y las estrategias utilizadas para afrontarlo.  
+
+---
+
+## Importancia del estudio
+
+El estrés académico es una de las principales problemáticas que afecta el rendimiento y bienestar de los estudiantes universitarios.  
+Conocer sus niveles, causas y formas de afrontamiento permite generar estrategias de apoyo institucional, fomentar la salud mental y proponer mejoras en los procesos de enseñanza y aprendizaje.  
+De esta manera, los resultados de este estudio pueden contribuir a diseñar programas de acompañamiento y recursos que ayuden a reducir el impacto negativo del estrés en la vida estudiantil.  
+
+## Confidencialidad y tiempo
+
+La participación es **anónima y voluntaria**.  
+La información recolectada será utilizada únicamente con fines académicos como parte de la tarea asignada en el curso de **Introducción a la estadística**
+
+Tiempo estimado de respuesta: 3-4 minutos.
+
+---
+
+# Población meta
+
+- **Características:** Estudiantes universitarios de distintas carreras técnicas y profesionales.  
+- **Criterios de inclusión:** Personas matriculadas en universidades públicas o privadas, con edades mayores a los 17 años
+- **Criterios de exclusión:** Personas que no estén actualmente matriculadas en una universidad.  
+- **Tamaño estimado de muestra:** 50-100 estudiantes.  
+
+---
+
+# Enlace al cuestionario
+
+Puedes acceder al cuestionario en Microsoft Forms en el siguiente enlace:
+
+[Haz clic aquí para responder el cuestionario](https://forms.cloud.microsoft/r/CME4zSHNz1)
+
+---

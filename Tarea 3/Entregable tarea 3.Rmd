@@ -1,0 +1,112 @@
+---
+title: "Tarea 3 - Introducción a Estadística"
+author: "Luis Diego Montero Vargas"
+date: "2025-11-20"
+output: html_document
+---
+# Ejercicio 18 | Tamaño de casinos e ingresos
+
+A continuación se presentan los tamaños (en miles de pies cuadrados) y los ingresos (en millones de dólares) de casinos de Atlantic City (según datos del New York Times). ¿Existe evidencia suficiente para concluir que existe una correlación lineal entre el tamaño de los casinos y sus ingresos?
+
+
+Tamaño     | 160 227 140 144 161 147 141  
+Ganancias  | 189 157 140 127 123 106 101 
+ 
+```{r}
+tamanio <- c(160, 227, 140, 144, 161, 147, 141)
+ganancias <- c(189, 157, 140, 127, 123, 106, 101)
+
+plot(tamanio, ganancias,
+     main = "Tamanio del casino vs Ganancias",
+     xlab = "Tamanio (mil pies cuadrados)",
+     ylab = "Ganancias (millones)")
+
+cor(tamanio, ganancias)
+
+
+```
+
+### Conclusión
+
+El coeficiente de correlación calculado es moderado
+
+
+# Ejercicio 19 | Tarifas aéreas
+
+ A continuación se presentan los precios (en dólares) de tarifas aéreas de diferentes aerolíneas desde la ciudad de Nueva York (JFK) a San Francisco. Los precios se basan en boletos comprados con 30 días de anticipación y un día de anticipación; las aerolíneas son US Air, Continental, Delta, United, American, Alaska y Northwest. ¿Hay evidencia suficiente para concluir que existe una correlación lineal entre los precios de los boletos comprados con 30 días de anticipación y los boletos comprados con un día de anticipación? 
+ 
+ 30 días | 244 260 264 264 278 318 280
+ Un día  | 456 614 567 943 628 1088 536
+
+
+```{r}
+dias30 <- c(244, 260, 264, 264, 278, 318, 280)
+dia1 <- c(456, 614, 567, 943, 628, 1088, 536)
+
+plot(dias30, dia1,
+     main = "Precio 30 dias antes vs 1 dia antes",
+     xlab = "Precio (30 dias antes)",
+     ylab = "Precio (1 dia antes)")
+
+cor(dias30, dia1)
+
+```
+
+
+### Conclusión
+
+El coeficiente de correlación es fuerte
+
+
+# Ejercicio 20 | Pasajeros y espacios de estacionamiento.
+
+ A continuación se presentan los números de pasajeros y los números de espacios de estacionamiento en diferentes estaciones del tren Metro-North (según datos de Metro North). ¿Existe una correlación lineal entre los números de pasajeros y los números de espacios de estacionamiento?
+ 
+ Pasajeros                   | 3453 1350 1126 3120 2641 277 579 2532  
+ Espacios de estacionamiento | 1653 676 294 950 1216 179 466 1454
+
+```{r}
+pasajeros <- c(3453, 1350, 1126, 3120, 2641, 277, 579, 2532)
+estacionamiento <- c(1653, 676, 294, 950, 1216, 179, 466, 1454)
+
+plot(pasajeros, estacionamiento,
+     main = "Pasajeros vs Espacios de estacionamiento",
+     xlab = "Número de pasajeros",
+     ylab = "Número de espacios")
+
+cor(pasajeros, estacionamiento)
+
+```
+
+### Conclusión
+
+El coeficiente de correlación es muy fuerte
+
+
+# Ejercicio 21 | Costos de reparación de automóviles.
+
+ A continuación se presentan los costos de reparación (en dólares) para automóviles que participaron en pruebas de choques frontales a una velocidad de 6 mi/h y en pruebas de choques traseros a una velocidad de 6 mi/h (según datos del Insurance Institute for Highway Safety). Los automóviles son Toyota Camry, Mazda 6, Volvo S40, Saturn Aura, Subaru Legacy, Hyundai Sonata y Honda Accord. ¿Hay evidencia suficiente para concluir que existe una correlación lineal entre los costos de reparación de los choques frontales y de los choques traseros?
+ 
+ 
+ Choques frontales | 936 978 2252 1032 3911 4312 3469
+ Choques traseros  | 1480 1202 802 3191 1122 739 2767
+
+```{r}
+choqueFrontal <- c(936, 978, 2252, 1032, 3911, 4312, 3469)
+choqueTrasero <- c(1480, 1202, 802, 3191, 1122, 739, 2767)
+
+plot(choqueFrontal, choqueTrasero,
+     main = "Costos de choque frontal vs trasero",
+     xlab = "Costo choque frontal",
+     ylab = "Costo choque trasero")
+
+cor(choqueFrontal, choqueTrasero)
+
+```
+
+### Conclusión
+
+El coeficiente de correlación es debil y negativo
+
+
+
